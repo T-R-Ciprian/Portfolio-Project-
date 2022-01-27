@@ -54,11 +54,12 @@ main div {
   padding: 35px;
   margin: 15px 0px;
   display: flex;
-  flex: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: "Oswald", sans-serif;
+  height: 150px;
+  width: 100px;
 }
 
 main div h2 {
