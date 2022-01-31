@@ -18,6 +18,8 @@
 
 header {
     background-image: url("https://images.unsplash.com/photo-1547421619-a4c9ed0f9fc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 842px;
 }
 
@@ -64,7 +66,7 @@ main div {
     align-items: center;
     justify-content: center;
     height: 250px;
-    width: 150px;
+    width: 160px;
 }
 
 .skills {
@@ -81,14 +83,6 @@ main div {
     height: 550px;
     position: relative;
     top: 150px;
-}
-
-.vl-2 {
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    height: 550px;
-    position: relative;
-    top: 120px;
 }
 
 main div h2 {
@@ -113,4 +107,73 @@ footer {
 
 footer i {
     font-size: 10px;
+}
+
+
+/* TABLET RESOLUTION IPAD PRO 10.5 */
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    header {
+        height: 872px;
+    }
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    main div {
+        margin: 0 35px;
+    }
+    footer i {
+        font-size: 15px;
+        padding: 2px 4px;
+        ;
+    }
+}
+
+
+/* LAPTOP SCREEN */
+
+@media screen and (min-device-width: 1112px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    header {
+        height: 872px;
+    }
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    main div {
+        margin: 0 60px;
+    }
+    footer i {
+        font-size: 15px;
+        padding: 2px 4px;
+        ;
+    }
+}
+
+
+/* 4k SCREEN */
+
+@media screen and (min-device-width: 1600px) and (max-device-width: 2400px) and (-webkit-min-device-pixel-ratio: 1) {
+    header {
+        height: 872px;
+    }
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    main div {
+        margin: 0 60px;
+    }
+    footer i {
+        font-size: 15px;
+        padding: 2px 4px;
+        ;
+    }
 }
